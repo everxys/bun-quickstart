@@ -7,3 +7,5 @@ const server = Bun.serve({
         return new Response(body);
     },
 });
+
+console.log(Bun.version)
